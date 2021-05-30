@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="createRotatedFullStackedBarChartItem1.Description" xml:space="preserve">
+    <value>Compare the percentage each value contributes to a total across categories using horizontal rectangles.
+
+Use it when the values on the chart represent durations or when the category text is very long.</value>
+  </data>
+  <data name="createRotatedFullStackedBarChartItem1.Hint" xml:space="preserve">
+    <value>Compare the percentage each value contributes to a total across categories using horizontal rectangles.
+
+Use it when the values on the chart represent durations or when the category text is very long.</value>
+  </data>
+  <data name="createArea3DChartItem1.Description" xml:space="preserve">
+    <value>Displays data as filled areas on a diagram, with each data point displayed as a peak or hollow in the area.
+
+Use it when you need to show trends for several series on the same diagram, and also show the relationship of the parts to the whole.</value>
+  </data>
+  <data name="createArea3DChartItem1.Hint" xml:space="preserve">
+    <value>Displays data as filled areas on a diagram, with each data point displayed as a peak or hollow in the area.
+
+Use it when you need to show trends for several series on the same diagram, and also show the relationship of the parts to the whole.</value>
+  </data>
+  <data name="createFullStackedArea3DChartItem1.Description" xml:space="preserve">
+    <value>Displays data as areas on a diagram, so that the value of each data point is stacked with all the other corresponding data points' values.
+
+Use it for comparing the percentage values of several series for the same point arguments.</value>
+  </data>
+  <data name="createFullStackedArea3DChartItem1.Hint" xml:space="preserve">
+    <value>Displays data as areas on a diagram, so that the value of each data point is stacked with all the other corresponding data points' values.
+
+Use it for comparing the percentage values of several series for the same point arguments.</value>
+  </data>
+  <data name="createFunnelChartItem1.Description" xml:space="preserve">
+    <value>Displays a wide area at the top, indicating the total points' value, while other areas are proportionally smaller.
+
+Use it when it is necessary to represent stages in a sales process, show the amount of potential revenue for each stage, as well as identify potential problem areas in an organization's sales processes.</value>
+  </data>
+  <data name="createFunnelChartItem1.Hint" xml:space="preserve">
+    <value>Displays a wide area at the top, indicating the total points' value, while other areas are proportionally smaller.
+
+Use it when it is necessary to represent stages in a sales process, show the amount of potential revenue for each stage, as well as identify potential problem areas in an organization's sales processes.</value>
+  </data>
+  <data name="createFunnel3DChartItem1.Description" xml:space="preserve">
+    <value>Displays a wide area at the top, indicating the total points' value, while other areas are proportionally smaller.
+
+Use it when it is necessary to represent stages in a sales process, show the amount of potential revenue for each stage, as well as identify potential problem areas in an organization's sales processes.</value>
+  </data>
+  <data name="createFunnel3DChartItem1.Hint" xml:space="preserve">
+    <value>Displays a wide area at the top, indicating the total points' value, while other areas are proportionally smaller.
+
+Use it when it is necessary to represent stages in a sales process, show the amount of potential revenue for each stage, as well as identify potential problem areas in an organization's sales processes.</value>
+  </data>
+  <data name="createStockChartItem1.Description" xml:space="preserve">
+    <value>Show variation in stock prices over the course of a day. The Open and Close prices are represented by left and right lines on each point, and the Low and High prices are represented by the bottom and top values of the vertical line which is shown at each point.</value>
+  </data>
+  <data name="createStockChartItem1.Hint" xml:space="preserve">
+    <value>Show variation in stock prices over the course of a day. The Open and Close prices are represented by left and right lines on each point, and the Low and High prices are represented by the bottom and top values of the vertical line which is shown at each point.</value>
+  </data>
+  <data name="createCandleStickChartItem1.Description" xml:space="preserve">
+    <value>Show the variation in the price of stock over the course of a day. The Open and Close prices are represented by a filled rectangle, and the Low and High prices are represented by the bottom and top values of the vertical line which is shown at each point.</value>
+  </data>
+  <data name="createCandleStickChartItem1.Hint" xml:space="preserve">
+    <value>Show the variation in the price of stock over the course of a day. The Open and Close prices are represented by a filled rectangle, and the Low and High prices are represented by the bottom and top values of the vertical line which is shown at each point.</value>
+  </data>
+  <data name="createRadarRangeAreaChartItem1.Description" xml:space="preserve">
+    <value>Displays series on a circular diagram on the basis of angles as filled areas, defined by data points with two values that are minimum and maximum limits. Use it when you need to accentuate the delta between the start and end values.</value>
+  </data>
+  <data name="createRadarRangeAreaChartItem1.Hint" xml:space="preserve">
+    <value>Displays series on a circular diagram on the basis of angles as filled areas, defined by data points with two values that are minimum and maximum limits. Use it when you need to accentuate the delta between the start and end values.</value>
+  </data>
+  <data name="createScatterRadarLineChartItem1.Description" xml:space="preserve">
+    <value>Displays data as a line on a circular grid that has multiple axis along which data can be plotted. The series points are drawn in the circular grid in the same order that they have in the series point collection.</value>
+  </data>
+  <data name="createScatterRadarLineChartItem1.Hint" xml:space="preserve">
+    <value>Displays data as a line on a circular grid that has multiple axis along which data can be plotted. The series points are drawn in the circular grid in the same order that they have in the series point collection.</value>
+  </data>
+  <data name="createPolarRangeAreaChartItem1.Description" xml:space="preserve">
+    <value>Displays series on a circular diagram as filled areas, defined by data points with two values that are minimum and maximum limits. Use it when you need to accentuate the delta between the start and end values.</value>
+  </data>
+  <data name="createPolarRangeAreaChartItem1.Hint" xml:space="preserve">
+    <value>Displays series on a circular diagram as filled areas, defined by data points with two values that are minimum and maximum limits. Use it when you need to accentuate the delta between the start and end values.</value>
+  </data>
+  <data name="createScatterPolarLineChartItem1.Description" xml:space="preserve">
+    <value>Show trends for several series and compare their values for the same point arguments on a circular diagram on the basis of angles. The series points are drawn in the circular grid in the same order that they have in the series point collection.</value>
+  </data>
+  <data name="createScatterPolarLineChartItem1.Hint" xml:space="preserve">
+    <value>Show trends for several series and compare their values for the same point arguments on a circular diagram on the basis of angles. The series points are drawn in the circular grid in the same order that they have in the series point collection.</value>
+  </data>
+  <data name="createRangeAreaChartItem1.Description" xml:space="preserve">
+    <value>Displays series as filled areas on a diagram, defined by data points with two values that are minimum and maximum limits.
+
+Use it when you need to accentuate the delta between the start and end values.</value>
+  </data>
+  <data name="createRangeAreaChartItem1.Hint" xml:space="preserve">
+    <value>Displays series as filled areas on a diagram, defined by data points with two values that are minimum and maximum limits.
+
+Use it when you need to accentuate the delta between the start and end values.</value>
+  </data>
+  <data name="createRangeArea3DChartItem1.Description" xml:space="preserve">
+    <value>Displays series as filled areas on a diagram, defined by data points with two values that are minimum and maximum limits.
+
+Use it when you need to accentuate the delta between the start and end values.</value>
+  </data>
+  <data name="createRangeArea3DChartItem1.Hint" xml:space="preserve">
+    <value>Displays series as filled areas on a diagram, defined by data points with two values that are minimum and maximum limits.
+
+Use it when you need to accentuate the delta between the start and end values.</value>
+  </data>
+  <data name="createSideBySideGanttChartItem1.Description" xml:space="preserve">
+    <value>Displays horizontal bars along the time axis. Each bar represents a separate event with the start and end values, hence these charts are used to track different activities during the time frame.
+
+Use it when it's necessary to show activity bars from different series one above another, to compare their duration.</value>
+  </data>
+  <data name="createSideBySideGanttChartItem1.Hint" xml:space="preserve">
+    <value>Displays horizontal bars along the time axis. Each bar represents a separate event with the start and end values, hence these charts are used to track different activities during the time frame.
+
+Use it when it's necessary to show activity bars from different series one above another, to compare their duration.</value>
+  </data>
+  <data name="createBoxPlotChartItem1.Description" xml:space="preserve">
+    <value>The Box Plot  chart is used to analyze statistic-driven data points. To draw a Box Plot point, pass the Min, Quartile1, Median, Quartile3, and Max parameters. You can also display a set of Outliers and a Mean value.</value>
+  </data>
+  <data name="createBoxPlotChartItem1.Hint" xml:space="preserve">
+    <value>The Box Plot  chart is used to analyze statistic-driven data points. To draw a Box Plot point, pass the Min, Quartile1, Median, Quartile3, and Max parameters. You can also display a set of Outliers and a Mean value.</value>
+  </data>
+  <assembly alias="DevExpress.Data.v20.2" name="DevExpress.Data.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="xtraTabPage1.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi40
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAEQDAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlJlZHtmaWxsOiNEMTFDMUM7fQoJLlll
+        bGxvd3tmaWxsOiNGRkIxMTU7fQoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntvcGFjaXR5OjAuMzU7fQoJLnN0M3tv
+        cGFjaXR5OjAuNjU7fQo8L3N0eWxlPg0KICA8ZyBpZD0iUGllIj4NCiAgICA8cGF0aCBkPSJNMjYuMyw1
+        LjFMMTYuNCwxNWw5LjksOS45YzIuMy0yLjYsMy43LTYuMSwzLjctOS45UzI4LjYsNy44LDI2LjMsNS4x
+        eiIgY2xhc3M9IkJsdWUiIC8+DQogICAgPHBhdGggZD0iTTE0LDE2di0xdi0wLjRMMjQuOSwzLjdDMjIu
+        MiwxLjQsMTguOCwwLDE1LDBDNi43LDAsMCw2LjcsMCwxNWMwLDcuOSw2LjIsMTQuNCwxNCwxNC45VjE2
+        eiIgY2xhc3M9IlJlZCIgLz4NCiAgICA8cGF0aCBkPSJNMTYsMjkuOWMzLjQtMC4yLDYuNS0xLjYsOC45
+        LTMuN0wxNiwxNy40VjI5Ljl6IiBjbGFzcz0iWWVsbG93IiAvPg0KICA8L2c+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="xtraTabPage2.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi40
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAHIFAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlJlZHtmaWxsOiNEMTFDMUM7fQoJLlll
+        bGxvd3tmaWxsOiNGRkIxMTU7fQoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntvcGFjaXR5OjAuMzU7fQoJLnN0M3tv
+        cGFjaXR5OjAuNjU7fQo8L3N0eWxlPg0KICA8ZyBpZD0iRG91Z2hudXQzRCI+DQogICAgPHBhdGggZD0i
+        TTE2LDIydjZjMy0wLjEsNS43LTAuOSw4LTJ2LTZsMCwwQzIxLjcsMjEuMSwxOSwyMS44LDE2LDIyeiIg
+        Y2xhc3M9IlllbGxvdyIgLz4NCiAgICA8ZyBjbGFzcz0ic3QzIj4NCiAgICAgIDxwYXRoIGQ9Ik02LDEy
+        YzAtMS4yLDMuMi00LDktNGMxLjEsMCwyLjEsMC4xLDMsMC4zTDI0LjEsNGMtMi41LTEuMi01LjctMi05
+        LjEtMkM2LjcsMiwwLDYuNSwwLDEyICAgIGMwLDUuMyw2LjIsOS42LDE0LDEwdi02QzguOCwxNS43LDYs
+        MTMuMSw2LDEyeiIgY2xhc3M9IlJlZCIgLz4NCiAgICAgIDxwYXRoIGQ9Ik0yNiw1LjJsLTYsMy42YzIu
+        NiwwLjksNCwyLjQsNCwzLjJzLTEuNCwyLjMtNCwzLjJsNiwzLjZjMi41LTEuOCw0LTQuMiw0LTYuOEMz
+        MCw5LjQsMjguNSw3LDI2LDUuMnoiIGNsYXNzPSJCbHVlIiAvPg0KICAgICAgPHBhdGggZD0iTTE2LDE2
+        djZjMy0wLjEsNS43LTAuOCw4LTJsLTYuNy00LjJDMTYuOSwxNS45LDE2LjUsMTUuOSwxNiwxNnoiIGNs
+        YXNzPSJZZWxsb3ciIC8+DQogICAgPC9nPg0KICAgIDxwYXRoIGQ9Ik0xNCwyMnY2QzYuMiwyNy42LDAs
+        MjMuMywwLDE4di02QzAsMTcuMyw2LjIsMjEuNiwxNCwyMnogTTE1LDhjLTUuOCwwLTksMi44LTksNGMw
+        LDAuNywxLjIsMi4xLDMuNSwzICAgYzEuNC0wLjYsMy4zLTEsNS41LTFjMS4xLDAsMi4xLDAuMSwzLDAu
+        M3YtNkMxNy4xLDguMSwxNi4xLDgsMTUsOHoiIGNsYXNzPSJSZWQiIC8+DQogICAgPHBhdGggZD0iTTMw
+        LDEydjZjMCwyLjYtMS41LDUtNCw2Ljh2LTZDMjguNSwxNywzMCwxNC42LDMwLDEyeiBNMjAsOC44djYu
+        NGMyLjYtMC45LDQtMi40LDQtMy4yUzIyLjYsOS43LDIwLDguOHoiIGNsYXNzPSJCbHVlIiAvPg0KICA8
+        L2c+DQo8L3N2Zz4L
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="xtraTabPage6.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABZ0RVh0VGl0
+        bGUAUGllO0RvbnV0O0NoYXJ0O/4Iw4sAAANvSURBVDhPZVJ7TNNXGL0VWWBTZvYPZImaDURREkPqCIvR
+        SEamY9ThWqHYiqACwuRRrGGT+ZgPRF0VFzMIXUMRREinWEGUl20V0AxZHX2BdLFDoYilgMY9/zj77i+Y
+        LNmXnJx893zn3Pv73cvcJfsEUIkIAdaivVKnurB6eL/qgbuk+C/Ojn0F2odFe9NIn8/n+HyTRs89jP3p
+        cXMSde7OCHcVF1g9Z07Cf7sDf4y4QJrAvOfrXDemK5bR/Lzimn7uE0rUul0R4VQVTk401uOVw4oXvV3w
+        dxrhb28WmPd83XupFvVlWp+8tDaKfPMEd3LUiqBf8nKsz5oNeNFnxtT1JgG+OZ663ogpYyMmL+vgGx1D
+        y8BT5Jw3PwyPiQ/mmzOLUql4dOwwps03MWmoFeA+cxx3pMloW7cWd9NS4T57Ek8cw+h5PItB7yscaxiA
+        4ujVDAoIYH1KZfv4JT0mGrTwXqzC0IlDaI6N9daIxfKE0NBF+ri4tAOpRd662yMw/zoDE8Fw7zcoT7R1
+        UsAbrE8u9z35XoOnVRqMaSvQLklCpXjNFhKFP04IjN9ZkZSn6aYTzKDF4cOP1gkoj96cJC2I9UhleHz6
+        IEa+yoen/CDa4hOQEb4slJv/8dmJmGjJqnXvZJZ1oMczi6recdT3TyDt8I2/SQtm3Z9IfCNfF2FInY2h
+        4ixYZFuhW79BSmIgN3MuTVdLvqzuQ+ewHxV3RnHB7IGs9Bo/QTAzrv+oazA/Cy7Vbrjyd8CuykXXFtlY
+        3ceJKTQQUi9JTu1N3zU20NqCK7bn0JhGccRgw2bV5W7Sg1iNOC7b9FmysLsjZxucFOI6oMaDnFxYjkvx
+        c/UXGLdU4vdHLbAZdfiWAjLLO5Cw80IWBcxnKxaELDTEfDh4Xy6FPU8J266tsGfL4dy/h0w36AEZ8NKq
+        x7SlHNPd3+Dq+TJsyq1pJ/NbBP6JLKBkaYS4KfqDKYskEfbc7bBTSL9sI2bunoavTQ3/rRJ6kYcwcE6O
+        xozVzxNXJyznPm5mzy5WcgosDFsSo38/2tYcE4vez5Pwk1yC2XvfYfyaGk5tJloL1kKXsrJDKQ6LpPnX
+        V8yYfvFyAVQ8cUF52HsFle9GmnSLI/0NimjUbVvp/yElynTq04hsrs/NieY8/yvh2ghvEhYS3iaEzPWv
+        r/U/xdi/NBH21yrw3OIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="xtraTabPage7.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABB0RVh0VGl0
+        bGUAUGllO0NoYXJ0O+NmYDoAAANbSURBVDhPbZNpTFNZGIYPogbG7S+ajJNRRDEkhhCNk0lMjCQq4xZh
+        nGqvCiqghAJFGKK4MyguDeAwgGBTFIRqFUQWhVpbR6gSrGVpy1YUaoFSb4tgqox/3jnnWv3lTZ5859ve
+        79x7zyHTw1YybXtN6OND8TWmJEZa0pJL+tKlL60Zqf8xaz6aVNqRkrib5meyOlY/xfPkz/JXhEwPWYVm
+        9aHopT2pScahyxfgftKMTwM9oDnBMp/FWb52n3gZrZ/h9HwmUkU76yU+9XvFgRZpstOhrIDHbMRU62O4
+        1bVwN9UIlvksbpdfg7q8/qMo80YwE5Fce0HIjuAVfp0J8cbxGhWm9Dq4HtwW4L3W9UAJV60Szio5eNsI
+        6gx2xOfrOpaGrvdnw8lTjhP3Z53GhO4hnKob32W0rBA2Uy9a3kyia8yDrEoDxOeqo6mAL9FzXNPorTI4
+        KksxdrMYY+VevGt7kQyDr7qhGXBDY52AdvA9VM+HwWU3qqnAbKIXifi3hTLYi2UYKc3DSEke7CW5wno4
+        Nwt9bUbUWVwU/gtmHneNDnDnHjqpgB9piYzCm0snMXBMgqGck7DlnxcYzD6OT9YGvNY3QtX5juJEhcGB
+        4tZRVLQ7sPt0w2cq4E80m7fyAydS0JsWh97UWPQfS8Tg2XT0H5fA01cDj+kWetVKFLaMIE9nQ96/NhTo
+        hhCVeZ/twJ/UrtvwuEsSix7pIfRI9sPCSIxGR0wUPhhKMKmXCXTcK8JFzTBkWhvOqLqxTVqlEV5BEbY2
+        Trt9hzDdHL8HpsMUag3cdky1/UP/zl+UbAGDMh9XqEBMTjPCDxTEUoGZZMXc+fNUob90vRBFwpTAofvg
+        7wLtogg6ORfu5kwvJzChOYtq+n02HVE00eY5FHb8iW/GT4Fht0NWu55ujYDpyF6YmEDURrx/dgl8Yxrc
+        jzLoiTwFQ64IyuhV7yJWhS9nfZslSkLGbxYxkVnJAYtDy5aEdNeErkHrzi1o+2MLJp9fxej9NFhKY1Cf
+        9Cvku1Y2c2EBQbReuFQbEyqpgOJvMl5WwER8KXNzAn5OKloUpJX/GOSuFIegfM9K9/VdwdqLvwXGsby3
+        zsdjuUOOhscT4pBf/QZLUGZRfqDMoyygzPf6LO7jMVeRrygWBpH/AcxTUm8ObXlCAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="xtraTabPage3.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi40
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAM4DAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5Z
+        ZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5SZWR7ZmlsbDojRDExQzFDO30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
+        aXNwbGF5OmlubGluZTtmaWxsOiNGRkIxMTU7fQoJLnN0NHtkaXNwbGF5OmlubGluZTt9Cgkuc3Q1e2Rp
+        c3BsYXk6aW5saW5lO29wYWNpdHk6MC43NTt9Cgkuc3Q2e2Rpc3BsYXk6aW5saW5lO29wYWNpdHk6MC41
+        O30KCS5zdDd7ZGlzcGxheTppbmxpbmU7ZmlsbDojMDM5QzIzO30KCS5zdDh7ZGlzcGxheTppbmxpbmU7
+        ZmlsbDojRDExQzFDO30KCS5zdDl7ZGlzcGxheTppbmxpbmU7ZmlsbDojMTE3N0Q3O30KCS5zdDEwe2Rp
+        c3BsYXk6aW5saW5lO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+DQogIDxnIGlkPSJPcHBvcnR1bml0eSI+
+        DQogICAgPHBhdGggZD0iTTMxLDJIMUMwLjUsMiwwLDIuNSwwLDN2MjZjMCwwLjUsMC41LDEsMSwxaDMw
+        YzAuNSwwLDEtMC41LDEtMVYzQzMyLDIuNSwzMS41LDIsMzEsMnogTTI4LDE4bC00LTRsLTgsOCAgIGwt
+        NC00bC02LDZsLTItMmw4LThsNCw0bDYtNmwtNC00aDEwVjE4eiIgY2xhc3M9IkdyZWVuIiAvPg0KICA8
+        L2c+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="xtraTabPage4.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi40
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAMUEAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlJlZHtmaWxsOiNEMTFDMUM7fQoJLlll
+        bGxvd3tmaWxsOiNGRkIxMTU7fQoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntvcGFjaXR5OjAuMzU7fQoJLnN0M3tv
+        cGFjaXR5OjAuNjU7fQo8L3N0eWxlPg0KICA8ZyBpZD0iTGluZTNEU3RhY2tlZCI+DQogICAgPHBvbHln
+        b24gcG9pbnRzPSIyOCw4IDMwLDYgMzAsMSAyOCwzICAiIGNsYXNzPSJCbHVlIiAvPg0KICAgIDxnIGNs
+        YXNzPSJzdDEiPg0KICAgICAgPHBvbHlnb24gcG9pbnRzPSIxNywxNCAxMCw3IDIsMTUgMiwyMCAxMCwx
+        MiAxNywxOSAyOCw4IDI4LDMgICAiIGNsYXNzPSJCbHVlIiAvPg0KICAgICAgPHBvbHlnb24gcG9pbnRz
+        PSIxNywyNiAxMCwxOSAyLDI3IDIsMzIgMTAsMjQgMTcsMzEgMjgsMjAgMjgsMTUgICAiIGNsYXNzPSJS
+        ZWQiIC8+DQogICAgPC9nPg0KICAgIDxwb2x5Z29uIHBvaW50cz0iMjgsMjAgMzAsMTggMzAsMTMgMjgs
+        MTUgICIgY2xhc3M9IlJlZCIgLz4NCiAgICA8ZyBjbGFzcz0ic3QwIj4NCiAgICAgIDxyZWN0IHg9IjEz
+        LjEiIHk9IjQuNiIgd2lkdGg9IjIuOCIgaGVpZ2h0PSI5LjkiIHJ4PSIwIiByeT0iMCIgY2xhc3M9IkJs
+        dWUiIHRyYW5zZm9ybT0ibWF0cml4KDAuNzA3MSwgLTAuNzA3MSwgMC43MDcxLCAwLjcwNzEsIC0yLjQ3
+        MDYsIDEzLjAzNTUpIiAvPg0KICAgICAgPHJlY3QgeD0iMTMuMSIgeT0iMTYuNiIgd2lkdGg9IjIuOCIg
+        aGVpZ2h0PSI5LjkiIHJ4PSIwIiByeT0iMCIgY2xhc3M9IlJlZCIgdHJhbnNmb3JtPSJtYXRyaXgoMC43
+        MDcxLCAtMC43MDcxLCAwLjcwNzEsIDAuNzA3MSwgLTEwLjk1NTgsIDE2LjU1MDMpIiAvPg0KICAgIDwv
+        Zz4NCiAgPC9nPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="xtraTabPage5.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIwLjIsIFZlcnNpb249MjAuMi40
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAOkCAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlJlZHtmaWxsOiNEMTFDMUM7fQoJLlll
+        bGxvd3tmaWxsOiNGRkIxMTU7fQoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntvcGFjaXR5OjAuMzU7fQoJLnN0M3tv
+        cGFjaXR5OjAuNjU7fQo8L3N0eWxlPg0KICA8ZyBpZD0iQnViYmxlIj4NCiAgICA8Y2lyY2xlIGN4PSIx
+        MSIgY3k9IjIxIiByPSI3IiBjbGFzcz0iWWVsbG93IiAvPg0KICAgIDxjaXJjbGUgY3g9IjIzIiBjeT0i
+        MTEiIHI9IjUiIGNsYXNzPSJCbHVlIiAvPg0KICAgIDxjaXJjbGUgY3g9IjI0IiBjeT0iMjIiIHI9IjIi
+        IGNsYXNzPSJHcmVlbiIgLz4NCiAgICA8Y2lyY2xlIGN4PSIxMiIgY3k9IjYiIHI9IjQiIGNsYXNzPSJS
+        ZWQiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
+</value>
+  </data>
+</root>
